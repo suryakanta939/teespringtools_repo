@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [teespringtools]">
+  <test name="reportTest(failed)">
+    <classes>
+      <class name="com.mailer.Testcases.TeespringMailer">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mailer.Testcases.TeespringMailer -->
+      <class name="com.mailer.Testcases.DmcaComplaint">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dmcaimages"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.mailer.Testcases.DmcaComplaint -->
+    </classes>
+  </test> <!-- reportTest(failed) -->
+</suite> <!-- Failed suite [teespringtools] -->

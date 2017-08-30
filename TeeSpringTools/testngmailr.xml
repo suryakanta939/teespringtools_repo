@@ -1,0 +1,8 @@
+<suite name="teespringtools">
+<test name="reportTest">
+<classes>
+<class name="com.mailer.Testcases.TeespringMailer"/>
+<class name="com.mailer.Testcases.DmcaComplaint"/>
+</classes>
+</test>
+</suite>
